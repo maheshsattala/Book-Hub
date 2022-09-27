@@ -14,7 +14,6 @@ import Favorites from './components/Favorites'
 class App extends Component {
   state = {
     showNavIcons: false,
-    //  activeNavId: localStorage.getItem("activeNavId") === "2" ? 2 : 1,
     activeNavId: '',
     isDarkTheme: false,
     favoritesList: [],
