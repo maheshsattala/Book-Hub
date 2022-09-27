@@ -14,6 +14,7 @@
 .book-item-cover-pic {
   width: 120px;
   border-radius: 10px;
+  transition: 0.5s all ease-in-out;
 }
 
 @media screen and (min-width: 768px) {
@@ -27,6 +28,11 @@
     width: 130px;
   }
 }
+
+.book-item-cover-pic:hover {
+  transform: scale(1.05);
+}
+
 .book-item-info-container {
   margin-left: 20px;
 }
